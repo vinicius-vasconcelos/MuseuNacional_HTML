@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Museu Nacional</title>
+		<meta charset="utf-8">
+
+		<!-- Normalize CSS -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+		<!-- Estilo customizado -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div id="container"><!-- Início container -->
+
+			<header><!-- Início Cabeçalho -->
+				<div id="logo">
+					<h1><a href="index.html">Museu Nacional</a></h1>
+				</div>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Exposições</a></li>
+						<li><a href="#">Pesquisa</a></li>
+						<li><a href="#">Vídeo</a></li>
+						<li><a href="#">Fotos</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</nav>
+			</header><!-- /Fim Cabeçalho -->
+
+			<div id="principal"><!-- Início do container principal -->
+
+				<div id="conteudo"><!-- Início do conteúdo principal -->
+					<section id="capa">
+						<img src="img/museu.png">
+					</section>
+
+					<section id="postagens">
+						<article id="video">
+							<h3>Vídeo: Conheça Nosso Museu</h3>
+							<iframe width="310" height="170" src="https://www.youtube-nocookie.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</article>
+
+						<article id="mapa">
+							<h3>Mapa: Encontre o Museu</h3>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.22871758450448!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1544645474389" width="310" height="170" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</article>
+
+						<article id="exposicoes">
+							<h3>Exposições:</h3>
+							<ul>
+								<li><a href="#">Os assustadores insetos</a></li>
+								<li><a href="#">O crânio de Luiza, a mulher mais antida do Brasil</a></li>
+								<li><a href="#">Preguiça gigante e tigre-dentes-de-sabe</a></li>
+								<li><a href="#">Plantas do Brasil central</a></li>
+								<li><a href="#">Teresa Cristina: A imperatriz Arqueóloga</a></li>
+								<li><a href="#"><strong>veja todos (65)</strong></a></li>
+							</ul>
+							
+						</article>
+
+						<article id="historia">
+							<h3>200 Anos de História:</h3>
+
+							<p>
+								Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, 
+								graphic or web designs. The passage is attributed to an unknown typesetter in the 15th 
+								century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum 
+								for use in a type specimen book. It usually begins with.
+							</p>
+
+							<a href="#"><strong>Leia Mais</strong></a>
+						</article>
+						
+					</section>
+				</div><!-- /Fim do conteúdo principal -->
+
+				<aside><!-- Início da área lateral -->
+					<section id="depoimento">
+						<img src="img/depoimento.png">
+					</section>
+
+					<section id="visita">
+						<h4>Faça uma visita</h4>
+						<form>
+							<fieldset>
+								<legend>Selecione uma data</legend>
+
+								<!-- Data -->
+								<label for="data">Data:</label>
+								<input class="campo" type="date" id="data" name="data">
+								
+								<!-- Qtde Pessoas -->
+								<label for="qtde">Qtde Pessoas:</label>
+								<input class="campo" type="number" id="qtde" name="qtde" style="width: 30px;">
+
+								<button type="subimit">Verificar disponibilidade</button>
+							</fieldset>
+						</form>
+					</section>
+
+					<section id="galeria">
+						<h4>Galeria de Fotos</h4>
+
+						<a href="#"><img src="img/imagem1.jpg"></a>
+						<a href="#"><img src="img/imagem2.jpg"></a>
+						<a href="#"><img src="img/imagem3.jpg"></a>
+						<a href="#"><img src="img/imagem4.jpg"></a>
+
+					</section>
+				</aside><!-- /Fim da área lateral -->
+
+				<footer>
+					<p>
+						<a href="index.html">Home</a>
+						<a href="#">Exposições</a>
+						<a href="#">Pesquisa</a>
+						<a href="#">Vídeo</a>
+						<a href="#">Fotos</a>
+						<a href="#">Contato</a>
+					</p>
+					<p><time>2019</time> Museu Nacional - Todos os Direitos Reservado.</p>
+				</footer>
+
+			</div><!-- /Fim do container principal -->
+		</div><!-- /Fim container -->
+
+	</body> 
+</html>
